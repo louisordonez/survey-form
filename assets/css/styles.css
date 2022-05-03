@@ -1,67 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Comfortaa', cursive;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", cursive;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url("/images/bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-color: #121d21;
 }
 
-.center {
-    margin: auto;
-    width: 70%;
-    padding: 10px;
+.flex-container {
+  display: flex;
+  height: 100vh;
 }
 
-.padding {
-    padding: 50px;
+.first-div {
+  width: 40%;
+  height: 100vh;
+  background: #56b7c4;
 }
 
-.padding-top {
-    padding-top: 25px;
+.second-div {
+  flex-grow: 1;
+  height: 100vh;
+  background: #fcb85f;
 }
 
-.margin-top {
-    margin-top: 8px;
+.img-class {
+  object-fit: contain;
+  width: 90%;
+  min-height: 90%;
 }
 
 .form-container {
-    margin-top: 150px;
-    margin-bottom: 150px;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  margin: 10%;
+  margin-top: 3%;
+}
+
+#title {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+#description {
+  margin-bottom: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.dog-options-container {
+  display: flex;
+}
+
+.dog-breed-container {
+  width: 50%;
+}
+
+.dog-type-container {
+  flex-grow: 1;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.padding-bottom {
+  padding-bottom: 7px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
 }
 
 hr {
-    border: 2px solid #008DD0;
-    border-radius: 5px;
+  border: 2px solid #1a555f;
+  background-color: #1a555f;
+  border-radius: 5px;
 }
 
-input[type=text], input[type=number], input[type=email], select, textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #008DD0;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input[type="submit"] {
+  width: 100%;
+  background-color: #1a555f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input:focus,
+select:focus {
+  outline: none !important;
+  border: 1px solid #1a555f;
+  box-shadow: 0 0 10px #719ece;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #1a555f;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-flow: column wrap;
+  }
+
+  .first-div {
+    display: none;
+  }
 }
