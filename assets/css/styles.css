@@ -28,6 +28,10 @@ body {
     padding-top: 25px;
 }
 
+.margin-top {
+    margin-top: 8px;
+}
+
 .form-container {
     margin-top: 150px;
     margin-bottom: 150px;
@@ -49,7 +53,7 @@ input[type=text], input[type=number], input[type=email], select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
 input[type=submit] {
     width: 100%;
