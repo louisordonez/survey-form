@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Application Form</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/checkboxValidation.js"></script>
   </head>
   <body>
     <div class="container center">
@@ -341,6 +342,7 @@
                     name="dog-breed"
                     id="bulldog-dog-breed-id"
                     value="bulldog"
+                    required
                   />
                   Bulldog</label
                 >
@@ -352,6 +354,7 @@
                     name="dog-breed"
                     id="corgi-dog-breed-id"
                     value="corgi"
+                    required
                   />
                   Corgi
                 </label>
@@ -363,6 +366,7 @@
                     name="dog-breed"
                     id="pug-dog-breed-id"
                     value="pug"
+                    required
                   />
                   Pug
                 </label>
@@ -374,6 +378,7 @@
                     name="dog-breed"
                     id="retriever-dog-breed-id"
                     value="retriever"
+                    required
                   />
                   Retriever
                 </label>
@@ -385,6 +390,7 @@
                     name="dog-breed"
                     id="shih-tzu-dog-breed-id"
                     value="shih-tzu"
+                    required
                   />
                   Shih Tzu
                 </label>
@@ -456,7 +462,12 @@
             </div>
           </div>
           <div class="padding">
-            <input type="submit" id="submit" value="Submit" />
+            <input
+              type="submit"
+              id="submit"
+              value="Submit"
+              onclick="checkboxValidationFunction()"
+            />
           </div>
         </div>
       </form>
