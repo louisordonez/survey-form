@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -90,6 +90,34 @@ hr {
 
 .padding-bottom {
   padding-bottom: 7px;
+}
+
+.success-p {
+  font-size: 20px;
+}
+
+#success-icon {
+  font-size: 100px;
+}
+
+.success-color {
+  color: #198754;
+}
+
+.link-color {
+  color: #0d6efd;
+}
+
+.center-align {
+  text-align: center;
+}
+
+#home-link {
+  text-decoration: none;
+}
+
+#home-link:hover {
+  text-decoration: underline;
 }
 
 input[type="text"],
