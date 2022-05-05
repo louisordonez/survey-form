@@ -120,6 +120,10 @@ hr {
   text-decoration: underline;
 }
 
+.required-field {
+  color: red;
+}
+
 input[type="text"],
 input[type="number"],
 input[type="email"],
