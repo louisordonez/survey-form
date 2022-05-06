@@ -61,6 +61,22 @@ body {
   font-size: 20px;
 }
 
+.dog-options-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dog-breed-container {
+  width: 50%;
+}
+
+.dog-type-container {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
 .success-p {
   font-size: 20px;
 }
@@ -155,24 +171,8 @@ hr {
   margin-top: 20px;
 }
 
-.padding {
+.padding-top {
   padding-top: 20px;
-}
-
-.dog-options-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.dog-breed-container {
-  width: 50%;
-}
-
-.dog-type-container {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .padding-bottom {

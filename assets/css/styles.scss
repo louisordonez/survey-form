@@ -7,6 +7,7 @@
 @import "./partials/_form-header.scss";
 @import "./partials/_header-container.scss";
 @import "./partials/_user-details.scss";
+@import "./partials/_dog-options.scss";
 @import "./partials/_success.scss";
 @import "./partials/_inputs.scss";
 @import "./partials/_text.scss";
@@ -28,20 +29,8 @@ hr {
   margin-top: 20px;
 }
 
-.padding {
+.padding-top {
   padding-top: 20px;
-}
-
-.dog-options-container {
-  display: flex;
-}
-
-.dog-breed-container {
-  width: 50%;
-}
-
-.dog-type-container {
-  flex-grow: 1;
 }
 
 .padding-bottom {
