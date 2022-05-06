@@ -1,0 +1,13 @@
+@import "../partials/_color.scss";
+
+.link-color {
+  color: $link-color;
+}
+
+#home-link {
+  text-decoration: none;
+}
+
+#home-link:hover {
+  text-decoration: underline;
+}

@@ -17,6 +17,10 @@ body {
   padding: 10px;
 }
 
+.center-align {
+  text-align: center;
+}
+
 input[type="text"],
 input[type="number"],
 input[type="email"],
@@ -139,6 +143,18 @@ hr {
   color: #198754;
 }
 
+.link-color {
+  color: #0d6efd;
+}
+
+#home-link {
+  text-decoration: none;
+}
+
+#home-link:hover {
+  text-decoration: underline;
+}
+
 .padding {
   padding-top: 20px;
 }
@@ -161,22 +177,6 @@ hr {
 
 .padding-bottom {
   padding-bottom: 7px;
-}
-
-.link-color {
-  color: #0d6efd;
-}
-
-.center-align {
-  text-align: center;
-}
-
-#home-link {
-  text-decoration: none;
-}
-
-#home-link:hover {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {

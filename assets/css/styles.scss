@@ -11,6 +11,7 @@
 @import "./partials/_hr.scss";
 @import "./partials/_text.scss";
 @import "./partials/_success.scss";
+@import "./partials/_link.scss";
 
 .padding {
   padding-top: 20px;
@@ -30,22 +31,6 @@
 
 .padding-bottom {
   padding-bottom: 7px;
-}
-
-.link-color {
-  color: $link-color;
-}
-
-.center-align {
-  text-align: center;
-}
-
-#home-link {
-  text-decoration: none;
-}
-
-#home-link:hover {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
