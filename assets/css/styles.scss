@@ -21,13 +21,12 @@ body {
   background-color: $primary;
 }
 
-img {
-  max-width: 50%;
-  float: right;
+.padding-top {
+  padding-top: 20px;
 }
 
-.image {
-  flex-basis: 25%;
+.padding-bottom {
+  padding-bottom: 7px;
 }
 
 hr {
@@ -37,12 +36,13 @@ hr {
   margin-top: 20px;
 }
 
-.padding-top {
-  padding-top: 20px;
+img {
+  max-width: 50%;
+  float: right;
 }
 
-.padding-bottom {
-  padding-bottom: 7px;
+.image {
+  flex-basis: 25%;
 }
 
 @media screen and (max-width: 768px) {

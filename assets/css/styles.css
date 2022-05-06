@@ -154,14 +154,12 @@ body {
   background-color: #fcb85f;
 }
 
-img {
-  max-width: 50%;
-  float: right;
+.padding-top {
+  padding-top: 20px;
 }
 
-.image {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+.padding-bottom {
+  padding-bottom: 7px;
 }
 
 hr {
@@ -171,12 +169,14 @@ hr {
   margin-top: 20px;
 }
 
-.padding-top {
-  padding-top: 20px;
+img {
+  max-width: 50%;
+  float: right;
 }
 
-.padding-bottom {
-  padding-bottom: 7px;
+.image {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
 }
 
 @media screen and (max-width: 768px) {
