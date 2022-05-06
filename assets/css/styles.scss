@@ -3,6 +3,7 @@
 @import "./partials/_container.scss";
 @import "./partials/_input.scss";
 @import "./partials/_form-header.scss";
+@import "./partials/_header-container.scss";
 
 * {
   margin: 0;
@@ -19,12 +20,6 @@ body {
   margin: auto;
   width: 80%;
   padding: 10px;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 img {
