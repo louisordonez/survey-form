@@ -8,6 +8,7 @@
 @import "./partials/_header-container.scss";
 @import "./partials/_img.scss";
 @import "./partials/_user-details.scss";
+@import "./partials/_hr.scss";
 
 body {
   background-color: $primary;
@@ -35,13 +36,6 @@ body {
 
 .padding {
   padding-top: 20px;
-}
-
-hr {
-  border: 2px solid $secondary;
-  background-color: $secondary;
-  border-radius: 5px;
-  margin-top: 20px;
 }
 
 .dog-options-container {

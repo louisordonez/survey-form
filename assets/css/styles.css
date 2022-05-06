@@ -102,6 +102,13 @@ img {
   margin-bottom: 100px;
 }
 
+hr {
+  border: 2px solid #1a555f;
+  background-color: #1a555f;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
 body {
   background-color: #fcb85f;
 }
@@ -128,13 +135,6 @@ body {
 
 .padding {
   padding-top: 20px;
-}
-
-hr {
-  border: 2px solid #1a555f;
-  background-color: #1a555f;
-  border-radius: 5px;
-  margin-top: 20px;
 }
 
 .dog-options-container {

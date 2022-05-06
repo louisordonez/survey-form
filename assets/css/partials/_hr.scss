@@ -1,0 +1,8 @@
+@import "../partials/_color.scss";
+
+hr {
+  border: 2px solid $secondary;
+  background-color: $secondary;
+  border-radius: 5px;
+  margin-top: 20px;
+}
