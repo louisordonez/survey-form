@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+@import "./partials/_reseter.scss";
 @import "./partials/_body.scss";
 @import "./partials/_container.scss";
 @import "./partials/_input.scss";
 @import "./partials/_form-header.scss";
 @import "./partials/_header-container.scss";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Comfortaa", cursive;
-}
 
 body {
   background-color: #fcb85f;
