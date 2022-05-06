@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
-@import "./partials/_variables.scss";
-@import "./partials/_mixins.scss";
-@import "./partials/_container.scss";
-@import "./partials/_form-header.scss";
-@import "./partials/_header-container.scss";
-@import "./partials/_user-details.scss";
-@import "./partials/_dog-options.scss";
-@import "./partials/_inputs.scss";
-@import "./partials/_text.scss";
-@import "./partials/_links.scss";
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/container";
+@import "./partials/form-header";
+@import "./partials/header-container";
+@import "./partials/user-details";
+@import "./partials/dog-options";
+@import "./partials/inputs";
+@import "./partials/text";
+@import "./partials/links";
 
 * {
   margin: 0;
