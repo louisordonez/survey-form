@@ -1,9 +1,9 @@
 @import "../partials/_variables.scss";
+@import "../partials/_mixins.scss";
 
 .form-header {
   background-color: $header-color;
   margin-top: 100px;
   border: 2px solid $header-color;
-  border-top-left-radius: $default-radius;
-  border-top-right-radius: $default-radius;
+  @include formBorderTopRadius($default-radius);
 }
