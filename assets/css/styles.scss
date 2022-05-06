@@ -9,30 +9,7 @@
 @import "./partials/_img.scss";
 @import "./partials/_user-details.scss";
 @import "./partials/_hr.scss";
-
-body {
-  background-color: $primary;
-}
-
-.center {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
-}
-
-.header-text {
-  padding: 20px;
-  font-size: 18px;
-  color: $white;
-}
-
-.white-text {
-  color: $white;
-}
-
-#description {
-  font-size: 20px;
-}
+@import "./partials/_text.scss";
 
 .padding {
   padding-top: 20px;
@@ -80,10 +57,6 @@ body {
 
 #home-link:hover {
   text-decoration: underline;
-}
-
-.required-field {
-  color: $danger;
 }
 
 @media screen and (max-width: 768px) {

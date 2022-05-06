@@ -102,21 +102,15 @@ img {
   margin-bottom: 100px;
 }
 
+.user-details #description {
+  font-size: 20px;
+}
+
 hr {
   border: 2px solid #1a555f;
   background-color: #1a555f;
   border-radius: 5px;
   margin-top: 20px;
-}
-
-body {
-  background-color: #fcb85f;
-}
-
-.center, .container {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
 }
 
 .header-text {
@@ -129,8 +123,8 @@ body {
   color: white;
 }
 
-#description {
-  font-size: 20px;
+.required {
+  color: red;
 }
 
 .padding {
@@ -183,10 +177,6 @@ body {
 
 #home-link:hover {
   text-decoration: underline;
-}
-
-.required-field {
-  color: red;
 }
 
 @media screen and (max-width: 768px) {

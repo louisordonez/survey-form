@@ -1,0 +1,15 @@
+@import "../partials/_color.scss";
+
+.header-text {
+  padding: 20px;
+  font-size: 18px;
+  color: $white;
+}
+
+.white-text {
+  color: $white;
+}
+
+.required {
+  color: $danger;
+}
