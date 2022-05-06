@@ -1,11 +1,13 @@
 @import "../partials/_color.scss";
 
+$default-width: 100%;
+
 input[type="text"],
 input[type="number"],
 input[type="email"],
 select,
 textarea {
-  width: 100%;
+  width: $default-width;
   padding: 12px 20px;
   margin: 8px 0;
   border: 1px solid #ccc;
@@ -14,8 +16,8 @@ textarea {
 }
 
 input[type="submit"] {
-  width: 100%;
-  background-color: #1a555f;
+  width: $default-width;
+  background-color: $secondary;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -28,11 +30,11 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: none !important;
-  border: 1px solid #1a555f;
+  border: 1px solid $secondary;
   box-shadow: 0 0 10px #719ece;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-  accent-color: #1a555f;
+  accent-color: $secondary;
 }
