@@ -6,6 +6,7 @@
 @import "./partials/_input.scss";
 @import "./partials/_form-header.scss";
 @import "./partials/_header-container.scss";
+@import "./partials/_img.scss";
 
 body {
   background-color: $primary;
@@ -15,15 +16,6 @@ body {
   margin: auto;
   width: 80%;
   padding: 10px;
-}
-
-img {
-  max-width: 50%;
-  float: right;
-}
-
-.image {
-  flex-basis: 25%;
 }
 
 .header-text {

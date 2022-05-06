@@ -76,16 +76,6 @@ input[type="checkbox"] {
           justify-content: center;
 }
 
-body {
-  background-color: #fcb85f;
-}
-
-.center, .container {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
-}
-
 img {
   max-width: 50%;
   float: right;
@@ -94,6 +84,16 @@ img {
 .image {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
+}
+
+body {
+  background-color: #fcb85f;
+}
+
+.center, .container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .header-text {
