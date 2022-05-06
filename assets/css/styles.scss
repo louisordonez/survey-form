@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 @import "./partials/variables";
 @import "./partials/mixins";
+@import "./partials/reset";
+@import "./partials/body";
 @import "./partials/container";
 @import "./partials/form-header";
 @import "./partials/header-container";
@@ -9,17 +11,6 @@
 @import "./partials/inputs";
 @import "./partials/text";
 @import "./partials/links";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: $font-stack;
-}
-
-body {
-  background-color: $primary;
-}
 
 .padding-top {
   padding-top: 20px;
