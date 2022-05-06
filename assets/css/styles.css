@@ -80,16 +80,6 @@ input[type="checkbox"] {
           justify-content: center;
 }
 
-img {
-  max-width: 50%;
-  float: right;
-}
-
-.image {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-}
-
 .user-details {
   background-color: white;
   display: -webkit-box;
@@ -108,13 +98,6 @@ img {
 
 .user-details #description {
   font-size: 20px;
-}
-
-hr {
-  border: 2px solid #1a555f;
-  background-color: #1a555f;
-  border-radius: 5px;
-  margin-top: 20px;
 }
 
 .header-text {
@@ -153,6 +136,23 @@ hr {
 
 #home-link:hover {
   text-decoration: underline;
+}
+
+img {
+  max-width: 50%;
+  float: right;
+}
+
+.image {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+hr {
+  border: 2px solid #1a555f;
+  background-color: #1a555f;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 .padding {

@@ -1,17 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 @import "./partials/_reseter.scss";
-@import "./partials/_color.scss";
+@import "./partials/_variables.scss";
 @import "./partials/_body.scss";
 @import "./partials/_container.scss";
-@import "./partials/_input.scss";
+@import "./partials/_inputs.scss";
 @import "./partials/_form-header.scss";
 @import "./partials/_header-container.scss";
-@import "./partials/_img.scss";
 @import "./partials/_user-details.scss";
-@import "./partials/_hr.scss";
 @import "./partials/_text.scss";
 @import "./partials/_success.scss";
 @import "./partials/_link.scss";
+
+img {
+  max-width: 50%;
+  float: right;
+}
+
+.image {
+  flex-basis: 25%;
+}
+
+hr {
+  border: 2px solid $secondary;
+  background-color: $secondary;
+  border-radius: 5px;
+  margin-top: 20px;
+}
 
 .padding {
   padding-top: 20px;
