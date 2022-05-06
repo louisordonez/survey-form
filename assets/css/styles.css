@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+body {
+  background-color: #fcb85f;
+}
+
 * {
   margin: 0;
   padding: 0;
