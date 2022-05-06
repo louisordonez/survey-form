@@ -10,6 +10,7 @@
 @import "./partials/_user-details.scss";
 @import "./partials/_hr.scss";
 @import "./partials/_text.scss";
+@import "./partials/_success.scss";
 
 .padding {
   padding-top: 20px;
@@ -29,18 +30,6 @@
 
 .padding-bottom {
   padding-bottom: 7px;
-}
-
-.success-p {
-  font-size: 20px;
-}
-
-#success-icon {
-  font-size: 100px;
-}
-
-.success-color {
-  color: $success;
 }
 
 .link-color {

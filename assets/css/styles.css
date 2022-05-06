@@ -127,6 +127,18 @@ hr {
   color: red;
 }
 
+.success-p {
+  font-size: 20px;
+}
+
+#success-icon {
+  font-size: 100px;
+}
+
+.success-color {
+  color: #198754;
+}
+
 .padding {
   padding-top: 20px;
 }
@@ -149,18 +161,6 @@ hr {
 
 .padding-bottom {
   padding-bottom: 7px;
-}
-
-.success-p {
-  font-size: 20px;
-}
-
-#success-icon {
-  font-size: 100px;
-}
-
-.success-color {
-  color: #198754;
 }
 
 .link-color {
