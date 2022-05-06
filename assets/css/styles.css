@@ -48,6 +48,14 @@ input[type="checkbox"] {
   accent-color: #1a555f;
 }
 
+.form-header {
+  background-color: #56b7c4;
+  margin-top: 100px;
+  border: 2px solid #56b7c4;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -64,14 +72,6 @@ body {
   margin: auto;
   width: 80%;
   padding: 10px;
-}
-
-.form-header {
-  background-color: #56b7c4;
-  margin-top: 100px;
-  border: 2px solid #56b7c4;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
 }
 
 .header-container {

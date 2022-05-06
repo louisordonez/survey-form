@@ -2,6 +2,7 @@
 @import "./partials/_body.scss";
 @import "./partials/_container.scss";
 @import "./partials/_input.scss";
+@import "./partials/_form-header.scss";
 
 * {
   margin: 0;
@@ -18,14 +19,6 @@ body {
   margin: auto;
   width: 80%;
   padding: 10px;
-}
-
-.form-header {
-  background-color: #56b7c4;
-  margin-top: 100px;
-  border: 2px solid #56b7c4;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
 }
 
 .header-container {
