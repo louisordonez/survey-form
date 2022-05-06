@@ -3,6 +3,12 @@ body {
   background-color: #fcb85f;
 }
 
+.center, .container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +21,7 @@ body {
   background-color: #fcb85f;
 }
 
-.center {
+.center, .container {
   margin: auto;
   width: 80%;
   padding: 10px;

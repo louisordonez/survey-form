@@ -1,0 +1,5 @@
+@import "../partials/_center.scss";
+
+.container {
+  @extend .center;
+}
