@@ -1,5 +1,8 @@
 # survey-form
+This project is a web page application form for adopting a dog.
 
-https://louisordonez.github.io/survey-form/
+## Tech Stack
+- HTML
+- CSS
 
-This project is a web page application form for adopting a dog and built using HTML and CSS.
+### Live Demo: https://louisordonez.github.io/survey-form/
