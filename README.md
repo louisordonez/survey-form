@@ -1,5 +1,5 @@
 # survey-form
-This project is a web page application for adopting a dog.
+This project is a web application for adopting a dog.
 
 ## Tech Stack
 - HTML
