@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Comfortaa", cursive;
 }
 
@@ -30,40 +29,26 @@ body {
 }
 
 .header-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .user-details {
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 60px;
   border: 2px solid white;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   margin-bottom: 100px;
 }
-
 .user-details #description {
   font-size: 20px;
 }
 
 .dog-options-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -72,14 +57,12 @@ body {
 }
 
 .dog-type-container {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
+input[type=text],
+input[type=number],
+input[type=email],
 select,
 textarea {
   width: 100%;
@@ -87,11 +70,10 @@ textarea {
   margin: 8px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type=submit] {
   width: 100%;
   background-color: #1a555f;
   color: white;
@@ -107,12 +89,11 @@ select:focus,
 textarea:focus {
   outline: none !important;
   border: 1px solid #1a555f;
-  -webkit-box-shadow: 0 0 10px #719ece;
-          box-shadow: 0 0 10px #719ece;
+  box-shadow: 0 0 10px #719ece;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+input[type=radio],
+input[type=checkbox] {
   accent-color: #1a555f;
 }
 
@@ -175,13 +156,11 @@ img {
 }
 
 .image {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  flex-basis: 25%;
 }
 
 @media screen and (max-width: 768px) {
   .image {
     display: none;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

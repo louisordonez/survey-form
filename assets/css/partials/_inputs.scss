@@ -1,10 +1,10 @@
-@import "./variables";
+@import './variables';
 
 $default-width: 100%;
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
+input[type='text'],
+input[type='number'],
+input[type='email'],
 select,
 textarea {
   width: $default-width;
@@ -15,7 +15,7 @@ textarea {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   width: $default-width;
   background-color: $secondary;
   color: white;
@@ -34,7 +34,7 @@ textarea:focus {
   box-shadow: 0 0 10px #719ece;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+input[type='radio'],
+input[type='checkbox'] {
   accent-color: $secondary;
 }
