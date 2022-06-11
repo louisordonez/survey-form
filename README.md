@@ -1,5 +1,7 @@
 # survey-form
 
+![Screenshot](./images/screenshot.png)
+
 This project is a web application for adopting a dog.
 
 ## Tech Stack
